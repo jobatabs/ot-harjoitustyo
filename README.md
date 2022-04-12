@@ -6,6 +6,6 @@ Tämä on Helsingin Yliopiston _Ohjelmistotekniikan kurssin_ **harjoitustyö**.
 
 [komentorivi.txt](laskarit/viikko1/komentorivi.txt)
 
-[Vaatimusmaarittely](docs/vaatimusmaarittely.md)
+[Vaatimusmäärittely](docs/vaatimusmaarittely.md)
 
 [Tuntikirjanpito](docs/tuntikirjanpito.md)
