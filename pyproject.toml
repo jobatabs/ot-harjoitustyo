@@ -6,11 +6,11 @@ authors = ["Jonatan Noponen <2370315+jobatabs@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+invoke = "^1.7.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.1"
 coverage = "^6.3.2"
-invoke = "^1.7.0"
 pylint = "^2.13.5"
 autopep8 = "^1.6.0"
 
