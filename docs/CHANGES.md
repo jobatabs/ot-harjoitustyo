@@ -4,5 +4,5 @@
 
 - Lisätty src-kansio
 - Lisätty tests-kansio
-- Lisätty poetry
-- Lisätty coverage, invoke, pytest -kehitysriippuvuudet
+- Lisätty poetry, invoke
+- Lisätty coverage, pytest, pylint, autopep8 -kehitysriippuvuudet
