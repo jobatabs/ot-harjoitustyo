@@ -1,4 +1,13 @@
+# Pytest
 __pycache__
 .pytest_cache
+
+# Coverage
 .coverage
 htmlcov
+
+# Python
+*.py[cod]
+*$py.class
+
+# Use a global ignore file for your .DS_Stores etc. :)
