@@ -1,5 +1,9 @@
 # Changelog
 
+## 14.4.2022
+
+- Lisätty UI-koodin muodollisuudet
+
 ## 13.4.2022
 
 - Lisätty src-kansio
