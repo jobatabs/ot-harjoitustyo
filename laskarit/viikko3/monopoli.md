@@ -1,9 +1,27 @@
 ```mermaid
 classDiagram
-	Pelilauta "1" -- "40" Ruutu
-	Noppa 2
-	Pelaaja 2..8
+	Pelaaja -- Pelinappula
 	class Pelaaja{
-		pelinappula
+		saldo
+	}
+	class Pelinappula{
+		tyyppi
+	}
+	Pelilauta "1" <-- "40" Ruutu
+	class Ruutu{
+		sijainti
+		toiminto()
+	}
+	Ruutu <|-- Aloitusruutu
+	Ruutu <|-- Vankilaruutu
+	Ruutu <|-- SattumaYhteismaa
+	SattumaYhteismaa "1" <-- "*" Kortti
+	class Kortti{
+		toiminto()
+	}
+	Ruutu <|-- AsemaLaitos
+	Ruutu <|-- Katuruutu
+	class Katuruutu{
+		nimi
 	}
 ```
