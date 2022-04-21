@@ -4,7 +4,8 @@ from ui.ui import UI
 def main():
     window = Tk()
     window.title('DoseCalculator')
-    window.geometry("400x240")
+    window.geometry("300x150")
+    window.resizable(False, False)
     ui_view = UI(window)
     ui_view.start()
 
